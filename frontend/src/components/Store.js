@@ -25,8 +25,8 @@ export default function Store(props){
             </MainStyle>
 
             <MainStyle>
-                <ButtonStyle>Comprar (20R$)</ButtonStyle>
-                <ButtonStyle>Comprar (45R$)</ButtonStyle>
+                <ButtonStyle onClick={console.log("ITEM COMPRADO")}>Comprar (20R$)</ButtonStyle>
+                <ButtonStyle onClick={console.log("ITEM COMPRADO")}>Comprar (45R$)</ButtonStyle>
             </MainStyle>
 
             <MainStyle>
@@ -35,8 +35,8 @@ export default function Store(props){
             </MainStyle>
 
             <MainStyle>
-                <ButtonStyle>Comprar (25R$)</ButtonStyle>
-                <ButtonStyle>Comprar (30R$)</ButtonStyle>
+                <ButtonStyle onClick={console.log("ITEM COMPRADO")}>Comprar (25R$)</ButtonStyle>
+                <ButtonStyle onClick={console.log("ITEM COMPRADO")}>Comprar (30R$)</ButtonStyle>
             </MainStyle>
 
         </WhoStyle>

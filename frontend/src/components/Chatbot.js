@@ -17,7 +17,7 @@ export default function Chatbot(props){
             <LogoStyle src={LogoAGITA_NT} alt="" />
 
             <MainStyle>
-                <ButtonStyle>DENÚNCIA</ButtonStyle>
+                <ButtonStyle onClick={() => window.open("http://localhost:5000/get")} >DENÚNCIA</ButtonStyle>
                 <ButtonStyle>DÚVIDAS</ButtonStyle>
                 <ButtonStyle>SUGESTÕES</ButtonStyle>
             </MainStyle>
